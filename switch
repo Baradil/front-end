@@ -1,0 +1,18 @@
+let athleteFinalPosition = 'first place';
+
+// Instead of else if statements
+switch (athleteFinalPosition) {
+  case 'first place':
+    console.log('You get the gold medal!');
+    break;
+  case 'second place':
+    console.log('You get the silver medal!');
+    break;
+  case 'third place':
+    console.log('You get the bronze medal!');
+    break;
+    // If no other condition is true
+  default:
+    console.log('No medal awarded.');
+    break;
+  }
